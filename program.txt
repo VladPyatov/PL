@@ -1,0 +1,13 @@
+program {
+    int a=51, b=6, c;
+    string y, x="abc", z="abcd";
+    #bool b=true;
+    c=(a+b)*2;
+
+    if(c>=100 or x==z){
+        read(y);
+        write(y);
+        write(x+y+z,c);
+    }
+    else c=21;
+}

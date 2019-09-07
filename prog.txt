@@ -1,0 +1,10 @@
+program{
+    int N,a;
+    int a;
+    a=0;
+    N=0;
+    while(a>0){
+        a=a+1;
+        N=N+1;
+    };
+}

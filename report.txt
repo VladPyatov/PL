@@ -1,0 +1,39 @@
+Correct working of interpretator:
+1)Maximum
+program{
+    int a,b,max;
+    read(a);
+    read(b);
+    if(a>b) max=a
+    else a=b;
+    write(max);
+
+}
+2)N numbers
+program{
+    int N,i;
+    read(N);
+    for(i=1;i<=N;i=i+1)
+        write(i);
+}
+Incorrect working of interpreator;
+1)Unknown identifier
+program{
+    int N,i;
+    N=0;
+    while(a>0){
+        a=a-1;
+        N=N+1;
+    };
+}
+2)Declared twice
+program{
+    int N,a;
+    int a;
+    a=0;
+    N=0;
+    while(a>0){
+        a=a+1;
+        N=N+1;
+    };
+}
